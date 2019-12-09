@@ -30,7 +30,7 @@ while (page_num <= max_page_num):
     # Download a page
     get_page = requests.get(url)
     get_page.raise_for_status()
-    print("Searching {}".format{page_num})
+    print("Searching {}".format(page_num))
 
 
     # Parse text for items
