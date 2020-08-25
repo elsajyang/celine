@@ -75,9 +75,9 @@ if new_posts:
     mail.attach(MIMEText(msg, 'html'))
     print(msg)
     # try:
-    user = 'elsajy@gmail.com'
-    password = 'mazwobpzctryiztt'
-    to_addr = 'elsajy@gmail.com'
+    user = ''   # FILL OUT
+    password = '' # FILL OUT
+    to_addr = '' # FILL OUT
 
     # Send the e-mail alert
     conn = smtplib.SMTP_SSL('smtp.gmail.com', 465) # smtp address and port
